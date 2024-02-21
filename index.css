@@ -1,0 +1,141 @@
+header {
+  width: 100%;
+  min-height: 400px;
+  background-color: #0b0417;
+
+  display: flex;
+}
+
+.header-container
+{
+  width: 100%;
+  max-width: 1200px;
+
+  padding: 40px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: auto;
+}
+
+.header-section
+{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 50%;
+
+  justify-content: center;
+}
+
+.header-right-section
+{
+  text-align: center;
+
+  color: white;
+}
+
+.header-logo
+{
+  font-size: 156px;
+}
+
+@media (max-width: 700px)
+{
+  .header-section
+  {
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .header-right-section
+  {
+    display: none;
+  }
+}
+
+.section{
+  width: 100%;
+  display: flex;
+
+  padding: 60px;
+}
+
+.section-dark
+{
+  background-color: #0b0417;
+}
+
+.section-container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.section-image
+{
+  flex-grow: 1;
+  flex-basis: 50%;
+  flex-shrink: 1;
+
+  padding: 20px;
+}
+
+.section-image div /* cambiar esto para que sea select img */
+{
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 100%;
+  width: 100%;
+
+  border-radius: 5px;
+}
+
+.section-text
+{
+  padding: 20px;
+
+  flex-grow: 1;
+  flex-basis: 50%;
+  flex-shrink: 1;
+
+  color: white;
+}
+
+#rules-list
+{
+  min-width: 400px;
+  font-size: larger;
+  margin-top: 50px;
+}
+
+#rules-list li {
+  color: white;
+}
+
+#rules-list li::marker {
+  /* content: "<span class='bi-bookmark-star-fill'></span>"; */
+  content: " ";
+  font-size: 1.2em;
+}
+
+footer
+{
+  padding: 35px;
+  background-color: #0b0417;
+  text-align: center;
+}
+
+footer div span
+{
+  padding: 15px;
+  font-size: larger;
+}
