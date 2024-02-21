@@ -1,0 +1,23 @@
+header
+{
+  background-color: var(--rg-bg-dark-color);
+}
+
+header h1
+{
+  text-align: center;
+  padding: 50px;
+}
+
+main
+{
+  text-align: center;
+  padding: 50px;
+  min-height: 600px;
+}
+
+.rule-container
+{
+  margin: auto;
+  max-width: 600px;
+}
