@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
 
   <link href="theme.override.css" rel="stylesheet">
+  <link href="site.css" rel="stylesheet">
 
   <link href="index.css" rel="stylesheet">
 </head>
@@ -21,6 +22,21 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" style="float: right;" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reglas</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -29,9 +45,9 @@
       <div class="header-section">
         <h1>Rooster Games</h1>
         <h3>Desarrollo de videojuegos</h3>
-        <p style="color: white;">Lorem Ipsum a random ipsum and some more ipsum (aquí el slogan)</p>
+        <p style="color: white;">Tu club universitario en desarrollo de videojuegos</p>
   
-        <button type="button" class="btn btn-warning" onclick="window.location = '#join-section'">Únete a Nosotros</button>
+        <!-- <button type="button" class="btn btn-warning" onclick="window.location = '#join-section'">Únete a Nosotros</button> -->
       </div>
       <div class="header-section header-right-section">
         <span class="bi-backpack2 header-logo"></span>
@@ -40,7 +56,7 @@
     </div>
   </header>
 
-  <section id="how-section" class="section">
+  <!-- <section id="how-section" class="section">
     <div class="section-container">
       <div class="section-image">
         <div>aqui alguna imagen cool</div>
@@ -52,23 +68,23 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section id="join-section" class="section section-dark">
+  <section id="join-section" class="section">
     <div class="section-container">
+      <div class="section-image" style="min-height: 350px;">
+        <div>aqui el mapa de la uaa, marcando donde es el club</div>
+      </div>
       <div class="section-text">
         <h2>Únete</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit consequat sodales. Cras dolor eros, imperdiet in risus quis, varius vulputate erat. Duis consequat sollicitudin vulputate. Integer eu ante at tellus dignissim tristique sit amet id nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
         </p>
       </div>
-      <div class="section-image" style="min-height: 350px;">
-        <div>aqui el mapa de la uaa, marcando donde es el club</div>
-      </div>
     </div>
   </section>
 
-  <section id="rules-section" class="section">
+  <!-- <section id="rules-section" class="section">
     <div class="section-container" style="flex-direction: column; align-items: center;">
       <h2>Las reglas</h2>
       <ul id="rules-list">
@@ -78,12 +94,15 @@
         <li>Donec hendrerit consequat sodales. Cras dolor eros, imperdiet in risus quis, varius vulputate erat. Duis consequat sollicitudin vulputate. Integer eu ante at tellus dignissim tristique sit amet id nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</li>
       </ul>
     </div>
-  </section>
+  </section> -->
 
   <footer>
     <div>
-      <span class="bi-github"></span>
-      <span class="bi-discord"></span>
+      <a class="bi-github" href="https://github.com/RoosterGamesClub" target="_blank"></a>
+      <a class="bi-linkedin" href="https://www.linkedin.com/company/rooster-games-devclub/about/" target="_blank"></a>
+      <a class="bi-github" href="" target="_blank"></a>
+      <a class="bi-instagram" href="https://www.instagram.com/rooster.games/" target="_blank"></a>
+      <a class="bi-youtube" href="https://www.youtube.com/channel/UCEti3QAC17BPa1MzS4moV5w" target="_blank"></a>
     </div>
     <br/>
     <span>© 2024 Rooster Games. Todos los derechos reservados.</span>

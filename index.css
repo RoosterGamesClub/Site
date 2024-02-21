@@ -126,16 +126,3 @@ header {
   content: " ";
   font-size: 1.2em;
 }
-
-footer
-{
-  padding: 35px;
-  background-color: #0b0417;
-  text-align: center;
-}
-
-footer div span
-{
-  padding: 15px;
-  font-size: larger;
-}

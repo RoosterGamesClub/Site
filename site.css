@@ -1,0 +1,17 @@
+:root
+{
+  --rg-bg-dark-color: #0b0417
+}
+
+footer
+{
+  padding: 35px;
+  background-color: var(--rg-bg-dark-color);
+  text-align: center;
+}
+
+footer div a
+{
+  padding: 15px;
+  font-size: larger;
+}
