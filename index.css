@@ -95,21 +95,14 @@ header {
   color: white;
 }
 
-#rules-list
+.section-text li
 {
-  min-width: 400px;
-  font-size: larger;
-  margin-top: 50px;
+  font-size: large;
 }
 
-#rules-list li {
-  color: white;
-}
-
-#rules-list li::marker {
-  /* content: "<span class='bi-bookmark-star-fill'></span>"; */
-  content: " ";
-  font-size: 1.2em;
+.section-text li::marker
+{
+  content: "";
 }
 
 @media (max-width: 700px)

@@ -19,5 +19,34 @@ main
 .rule-container
 {
   margin: auto;
-  max-width: 600px;
+  max-width: 1200px;
+}
+
+.rule-container ul
+{
+  padding: 0px;
+}
+
+.rule-container li
+{
+  background-color: var(--rg-transparent-dark-color);
+  margin-bottom: 25px;
+  padding: 20px;
+  border-left: 5px solid rgb(111, 66, 193);
+  border-radius: 5px;
+
+  min-height: 80px;
+}
+
+li::marker
+{
+  content: "";
+}
+
+@media (max-width: 700px)
+{
+  main
+  {
+    padding: 20px;
+  }
 }

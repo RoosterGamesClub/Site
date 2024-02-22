@@ -1,6 +1,7 @@
 :root
 {
-  --rg-bg-dark-color: #0b0417
+  --rg-bg-dark-color: #0b0417;
+  --rg-transparent-dark-color: rgba(11, 4, 23, 0.4);
 }
 
 footer
