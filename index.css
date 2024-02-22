@@ -1,7 +1,7 @@
 header {
   width: 100%;
   min-height: 400px;
-  background-color: #0b0417;
+  background-color: #0b0417; /*Color begind the first section un the first secction*/
 
   display: flex;
 }
