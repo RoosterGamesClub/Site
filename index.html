@@ -12,6 +12,8 @@
   <link href="site.css" rel="stylesheet">
 
   <link href="index.css" rel="stylesheet">
+
+  <script src="multi-language-1.4-dist/multi-language.min.js"></script>
 </head>
 <body>
   <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
@@ -25,15 +27,22 @@
       <div class="collapse navbar-collapse" style="float: right;" id="navbarColor02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Inicio
+            <a class="nav-link active" href="#"><span id="site-navbar-t1">Inicio</span>
               <span class="visually-hidden">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./about.html">Nosotros</a>
+            <a class="nav-link" href="./about.html"><span id="site-navbar-t2">Nosotros</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./rules.html">Reglas</a>
+            <a class="nav-link" href="./rules.html"><span id="site-navbar-t3">Reglas</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span id="site-navbar-t4">Español</span></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" onclick="setLanguage('es')">Español</a>
+              <a class="dropdown-item" onclick="setLanguage('en')">English</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -43,11 +52,11 @@
   <header>
     <div class="header-container">
       <div class="header-section">
-        <h1>Rooster Games</h1>
-        <h3>Desarrollo de videojuegos</h3>
-        <p style="color: white;">Tu club universitario en desarrollo de videojuegos</p>
+        <h1 id="index-header-t1">Rooster Games</h1>
+        <h3 id="index-header-t2">Desarrollo de videojuegos</h3>
+        <p id="index-header-t3" style="color: white;">Tu club universitario en desarrollo de videojuegos</p>
   
-        <button type="button" class="btn btn-primary" onclick="window.open('https://discord.gg/6A5wwHVGGC', '_blank')">Entra al discord</button>
+        <button type="button" class="btn btn-primary" onclick="window.open('https://discord.gg/6A5wwHVGGC', '_blank')"><span id="index-header-t4">Entra al discord</span></button>
       </div>
       <div class="header-section header-right-section">
         <span class="bi-backpack2 header-logo"></span>
@@ -55,20 +64,6 @@
       </div>
     </div>
   </header>
-
-  <!-- <section id="how-section" class="section">
-    <div class="section-container">
-      <div class="section-image">
-        <div>aqui alguna imagen cool</div>
-      </div>
-      <div class="section-text">
-        <h2>What and Why</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit consequat sodales. Cras dolor eros, imperdiet in risus quis, varius vulputate erat. Duis consequat sollicitudin vulputate. Integer eu ante at tellus dignissim tristique sit amet id nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec consectetur varius dignissim. Donec nec elit in quam rhoncus semper. Pellentesque elementum lorem eu leo ornare viverra. Aliquam viverra eros vel porttitor auctor. Aenean posuere dolor velit, vel auctor nibh mollis non. Nam ut mi metus. Maecenas non viverra sapien, sed ullamcorper turpis. Pellentesque auctor in enim eget suscipit. Integer placerat, sapien in porta mollis, metus mauris blandit sem, id pretium felis lacus vitae nibh.
-        </p>
-      </div>
-    </div>
-  </section> -->
 
   <section id="join-section" class="section">
     <div class="section-container">
@@ -83,14 +78,14 @@
           src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=21.913829630592176,%20-102.31634974479677+(Rooster%20Games)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
         </iframe>
       <div class="section-text">
-        <h2>Únete</h2>
-        <p style="text-align: justify;"="">En Rooster Games, nos apasiona la creación de videojuegos y queremos que formes parte de nuestra comunidad. <span class="text-primary">No importa tu experiencia o tu especialización</span>, ¡todos son bienvenidos!</p>
-        <p style="text-align: justify;"="">No tenemos un proceso de inscripción formal ni papeleo complicado. Todo lo que necesitas hacer es <span class="text-primary">aceptar las <a class="text-primary" href="./rules.html">reglas del club</a> y contactarnos</span>. Puedes hacerlo de dos maneras:</p>
+        <h2 id="index-join-t1">Únete</h2>
+        <p style="text-align: justify;">En Rooster Games, nos apasiona la creación de videojuegos y queremos que formes parte de nuestra comunidad. <span class="text-primary">No importa tu experiencia o tu especialización</span>, ¡todos son bienvenidos!</p>
+        <p style="text-align: justify;">No tenemos un proceso de inscripción formal ni papeleo complicado. Todo lo que necesitas hacer es <span class="text-primary">aceptar las <a class="text-primary" href="./rules.html">reglas del club</a> y contactarnos</span>. Puedes hacerlo de dos maneras:</p>
         <ul>
-          <li style="text-align: justify;"=""><strong>Discord:</strong>  Únete a nuestro servidor y preséntate en el canal de bienvenida.</li>
-          <li style="text-align: justify;"=""><strong>Reuniones:</strong> Te damos la bienvenida a nuestras reuniones semanales cada <span class="text-primary">[tal dia] a las [tal hora]</span> de la tarde.</li>
+          <li style="text-align: justify;"><strong>Discord:</strong>  Únete a nuestro servidor y preséntate en el canal de bienvenida.</li>
+          <li style="text-align: justify;"><strong>Reuniones:</strong> Te damos la bienvenida a nuestras reuniones semanales cada <span class="text-primary">[tal dia] a las [tal hora]</span> de la tarde.</li>
         </ul>
-        <p style="text-align: justify;"="">¡Esperamos verte pronto en Rooster Games, donde juntos daremos vida a emocionantes experiencias de juego!</p>
+        <p style="text-align: justify;">¡Esperamos verte pronto en Rooster Games, donde juntos daremos vida a emocionantes experiencias de juego!</p>
       </div>
     </div>
   </section>
@@ -103,8 +98,9 @@
       <a class="bi-youtube" href="https://www.youtube.com/channel/UCEti3QAC17BPa1MzS4moV5w" target="_blank"></a>
     </div>
     <br/>
-    <span>© 2024 Rooster Games. Todos los derechos reservados.</span>
+    <span id="site-footer-t1">© 2024 Rooster Games. Todos los derechos reservados.</span>
   </footer>
 
+  <script src="translator.js"></script>
 </body>
 </html>
