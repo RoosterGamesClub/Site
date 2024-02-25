@@ -175,10 +175,10 @@ function getTranslatorSheet()
         'en':'As a fan of videogames and with experience in software development. I\'m here to help you overcome technical chalenges and make your visions come true. I\'m open to learn of every one of you (I know, I don\'t know it all). Hope you would consider me a resource and build something cool.'
       }
     },{
-      'id':'',
+      'id':'about-leslie-t1',
       'langs':{
-        'es':'',
-        'en':''
+        'es':'Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Nuestro club une talento y pasión por los videojuegos en la comunidad universitaria. Buscamos colaborar, aprender y alcanzar metas significativas en el ámbito del desarrollo de videojuegos. Te invito a acercarte con confianza ante cualquier duda.',
+        'en':'As the leader of the club, my commitment is to support and accompany you at every stage of the video game development process. With professional experience in an MMORPG, I am prepared to address your inquiries and needs. Our club brings together talent and passion for video games within the university community. We aim to collaborate, learn, and achieve meaningful goals in the field of game development. I invite you to approach with confidence for any questions you may have.'
       }
     }
     // ----------------------------------------
