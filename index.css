@@ -84,6 +84,13 @@ header {
   border-radius: 5px;
 }
 
+.pollo
+{
+  margin-left: 50px;
+  width: 80%;
+  height: 100%;
+}
+
 .section-text
 {
   padding: 20px;
@@ -134,4 +141,5 @@ header {
   {
     flex-basis: 100px;
   }
+
 }
