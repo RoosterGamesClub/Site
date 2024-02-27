@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rooster Games</title>
+  <link rel="icon" type="image/x-icon" href="ollop-roostergames.png">
+
+  <link href="bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+
+  <link href="theme.override.css" rel="stylesheet">
+  <link href="site.css" rel="stylesheet">
+
+  <link href="pollo.css" rel="stylesheet">
+
+  <script src="multi-language-1.4-dist/multi-language.min.js"></script>
+</head>
+<body>
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="translator.js"></script>
+
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Rooster Games</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" style="float: right;" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"><span id="site-navbar-t1">Inicio</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./about.html"><span id="site-navbar-t2">Nosotros</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./rules.html"><span id="site-navbar-t3">Reglas</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span id="site-navbar-t4">Español</span></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" onclick="setLanguage('es')">Español</a>
+              <a class="dropdown-item" onclick="setLanguage('en')">English</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <img src="pollo-roostergames.png">
+    <div id="title-container">
+      <h1>Pollo</h1>
+      <h2>Su vida e historia...</h2>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h1>Título 1</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec velit lectus. Duis ut feugiat eros. Nulla finibus ultricies enim, cursus consectetur enim rutrum id. Proin quis imperdiet purus, at euismod magna. Integer id laoreet sapien, ut interdum dui. Mauris in consectetur tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed lobortis velit arcu, molestie luctus est lacinia vel. Aliquam aliquam at metus viverra volutpat. Mauris sit amet nibh nec mauris hendrerit vehicula. Aenean rutrum nisl eget quam rhoncus, sit amet elementum justo malesuada. Praesent mollis scelerisque porttitor. Nullam dignissim tempus nisl vitae vulputate. Duis semper mollis magna in commodo. Pellentesque nisl metus, dictum vitae convallis et, euismod eu sem.
+  
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc viverra nulla sed odio efficitur mattis. Mauris hendrerit metus diam, id eleifend nibh lacinia quis. Ut id tincidunt lorem. Morbi pulvinar mauris sed lorem tincidunt, ac tristique nisl suscipit. Cras tincidunt tellus vitae efficitur scelerisque. Nam eu orci sit amet sapien porta dictum quis sed eros. Etiam tristique eros in dui consequat, ac rutrum elit rhoncus. Nunc et egestas metus, vitae malesuada lacus. Nullam at consectetur purus. In sodales dictum risus et vehicula. Fusce non metus sit amet magna mattis venenatis. Aliquam eleifend enim et lacus sagittis luctus. Etiam sed erat sed velit semper aliquet. Sed leo dolor, lobortis sit amet ultricies aliquam, vulputate quis quam. Donec quam lorem, accumsan vel ornare nec, accumsan vel turpis.
+      </p>
+
+      <h1>Título 2</h1>
+      <p>
+        Phasellus accumsan metus neque, ac volutpat mauris ultrices tincidunt. Cras libero nisi, sagittis nec est ut, mollis euismod ipsum. Mauris lacinia nulla risus, a pellentesque quam pulvinar quis. Phasellus rutrum nulla nisi, a eleifend urna cursus eu. Nulla aliquam in arcu sed ullamcorper. Pellentesque vel nulla sit amet erat ultrices porttitor. Phasellus eu nisi egestas velit interdum congue eu at turpis. Maecenas sit amet rhoncus turpis. Duis elit velit, pretium eget tortor non, gravida blandit lectus. Nulla nec ligula luctus, scelerisque justo in, gravida orci. Aliquam erat volutpat. Praesent ultricies erat in molestie blandit. Vestibulum laoreet quam id metus porttitor scelerisque.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a class="bi-github" href="https://github.com/RoosterGamesClub" target="_blank"></a>
+      <a class="bi-linkedin" href="https://www.linkedin.com/company/rooster-games-devclub/about/" target="_blank"></a>
+      <a class="bi-instagram" href="https://www.instagram.com/rooster.games/" target="_blank"></a>
+      <a class="bi-youtube" href="https://www.youtube.com/channel/UCEti3QAC17BPa1MzS4moV5w" target="_blank"></a>
+      <a class="bi-twitter-x" href="https://twitter.com/RoosterGamesUaa" target="_blank"></a>
+    </div>
+    <br/>
+    <span id="site-footer-t1">© 2024 Rooster Games. Todos los derechos reservados.</span>
+  </footer>
+
+</body>
+</html>
+
+<script src="translator.js"></script>

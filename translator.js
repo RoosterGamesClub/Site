@@ -171,8 +171,8 @@ function getTranslatorSheet()
     },{
       'id':'about-leo-t1',
       'langs':{
-        'es':'Como aficionado de los videojuegos y con experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.',
-        'en':'As a fan of videogames and with experience in software development. I\'m here to help you overcome technical chalenges and make your visions come true. I\'m open to learn of every one of you (I know, I don\'t know it all). Hope you would consider me a resource and build something cool.'
+        'es':'Soy aficionado de los videojuegos con experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.',
+        'en':'I\'m a fan of videogames with experience in software development. I\'m here to help you overcome technical chalenges and make your visions come true. I\'m open to learn of every one of you (I know, I don\'t know it all). Hope you would consider me a resource and build something cool.'
       }
     },{
       'id':'about-leslie-t1',
