@@ -180,6 +180,12 @@ function getTranslatorSheet()
         'es':'Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Nuestro club une talento y pasión por los videojuegos en la comunidad universitaria. Buscamos colaborar, aprender y alcanzar metas significativas en el ámbito del desarrollo de videojuegos. Te invito a acercarte con confianza ante cualquier duda.',
         'en':'As the leader of the club, my commitment is to support and accompany you at every stage of the video game development process. With professional experience in an MMORPG, I am prepared to address your inquiries and needs. Our club brings together talent and passion for video games within the university community. We aim to collaborate, learn, and achieve meaningful goals in the field of game development. I invite you to approach with confidence for any questions you may have.'
       }
+    },{
+      'id':'about-pollo-t1',
+      'langs':{
+        'es':'Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.',
+        'en':'Even though you only see me on the screen, Im an active member of the team and the supreme leader. I have full confidence in each member of the Club to create amazing games, as they are talented and committed.'
+      }
     }
     // ----------------------------------------
   ]
