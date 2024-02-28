@@ -177,8 +177,8 @@ function getTranslatorSheet()
     },{
       'id':'about-leslie-t1',
       'langs':{
-        'es':'Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Nuestro club une talento y pasión por los videojuegos en la comunidad universitaria. Buscamos colaborar, aprender y alcanzar metas significativas en el ámbito del desarrollo de videojuegos. Te invito a acercarte con confianza ante cualquier duda.',
-        'en':'As the leader of the club, my commitment is to support and accompany you at every stage of the video game development process. With professional experience in an MMORPG, I am prepared to address your inquiries and needs. Our club brings together talent and passion for video games within the university community. We aim to collaborate, learn, and achieve meaningful goals in the field of game development. I invite you to approach with confidence for any questions you may have.'
+        'es':'Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Pues además de lo que sé, me comprometo a buscar la manera de ayudarte en aquello que desconozco. Te invito a acercarte con confianza ante cualquier duda.',
+        'en':'As the leader of the club, my commitment is to support and accompany you in every stage of the video game development process. With professional experience in an MMORPG, I am prepared to address your inquiries and needs. Furthermore, in addition to what I know, I pledge to find ways to assist you in areas where I lack knowledge. I invite you to approach with confidence for any questions.'
       }
     },{
       'id':'about-pollo-t1',
