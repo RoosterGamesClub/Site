@@ -186,8 +186,35 @@ function getTranslatorSheet()
         'es':'Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.',
         'en':'Even though you only see me on the screen, Im an active member of the team and the supreme leader. I have full confidence in each member of the Club to create amazing games, as they are talented and committed.'
       }
+    },
+   // ----------------------------------------
+   // -------------- rules.html --------------
+   {
+    'id':'about-ruleOne-t1',
+    'langs':{
+      'es':'El respeto es un principio fundamental en nuestra filosofía, y lo cultivamos con firmeza. Por esta razón, nuestra primera regla es la de honrar y valorar a los demás. En este contexto, enfatizamos la importancia de no difundir odio ni expresar comentarios xenófobos, homofóbicos o racistas. Reconocemos la diversidad como una riqueza que enriquece nuestro entorno y nos comprometemos a promover un ambiente de inclusión y aceptación mutua.',
+      'en':'Respect is a fundamental principle in our philosophy, and we cultivate it steadfastly. For this reason, our first rule is to honor and value others. In this context, we emphasize the importance of not spreading hatred or expressing xenophobic, homophobic, or racist comments. We recognize diversity as a wealth that enriches our environment and commit to promoting an atmosphere of inclusion and mutual acceptance.'
     }
-    // ----------------------------------------
+  },{
+      'id':'about-ruleTwo-t1',
+      'langs':{
+        'es':'El desarrollo de tu videojuego es tu responsabilidad; de lo contrario, no será terminado. Trata de asistir a las reuniones establecidas por el club y tu equipo.',
+        'en':'The development of your video game is your responsibility; otherwise, it will not be completed. Try to attend the meetings established by the club and your team.'
+      }
+    },{
+      'id':'about-ruleTree-t1',
+      'langs':{
+        'es':'Esta no es una regla, sino más bien una recomendación. Agradece y valora el trabajo de tus compañeros.',
+        'en':'This is not a rule, but rather a recommendation. Be grateful and value the work of your colleagues.'
+      }
+    },{
+      'id':'about-rulee-t1',
+      'langs':{
+        'es':'Errar es humano, pero si incides tres veces y desistes de mejorar tu actitud, serás expulsado del club',
+        'en':'To err is human, but if you repeat the offense three times and fail to improve your attitude, you will be expelled from the club.'
+      }
+    }
+        
   ]
 
   return translatorSheet;
