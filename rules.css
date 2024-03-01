@@ -32,10 +32,14 @@ main
   background-color: var(--rg-transparent-dark-color);
   margin-bottom: 25px;
   padding: 20px;
-  border-left: 5px solid rgb(111, 66, 193);
+  /* border-left: 5px solid rgb(111, 66, 193); */
   border-radius: 5px;
 
   min-height: 80px;
+}
+
+.rule-container li{
+  font-size: large;
 }
 
 li::marker
@@ -43,10 +47,38 @@ li::marker
   content: "";
 }
 
+#about-rule-t1{
+  text-align: left !important;
+  font-size: small;
+  text-align: center;
+}
+
+#accept-btn{
+  min-width: 150px;
+}
+
+#accept-btn input{
+  margin-right: 5px;
+}
+
+#accept-btn input :hover{
+  cursor: pointer;
+}
+
+.bottom-container{
+  margin: auto;
+  max-width: 1200px;
+  text-align: right;
+}
+
 @media (max-width: 700px)
 {
   main
   {
     padding: 20px;
+  }
+
+  .rule-container li{
+    font-size: medium;
   }
 }

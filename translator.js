@@ -208,19 +208,24 @@ function getTranslatorSheet()
         'en':'This is not a rule, but rather a recommendation. Be grateful and value the work of your colleagues.'
       }
     },{
-      'id':'about-rulee-t1',
+      'id':'about-rule-t1',
       'langs':{
-        'es':'Errar es humano, pero si incides tres veces y desistes de mejorar tu actitud, serás expulsado del club',
-        'en':'To err is human, but if you repeat the offense three times and fail to improve your attitude, you will be expelled from the club.'
+        'es':'*Errar es humano, pero si incides tres veces y desistes de mejorar tu actitud, serás expulsado del club',
+        'en':'*To err is human, but if you repeat the offense three times and fail to improve your attitude, you will be expelled from the club.'
       }
     },{
       'id':'about-ruleshead-t1',
       'langs':{
         'es':'Las Reglas',
-        'en':'The Rules'
-    }
-  }
-        
+        'en':'The Rules',
+      }
+    },{
+      'id':'accept-btn-t1',
+      'langs':{
+        'es':'Aceptar',
+        'en':'Accept'
+      }
+    }   
   ]
 
   return translatorSheet;
