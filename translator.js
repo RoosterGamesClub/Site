@@ -64,6 +64,12 @@ function getTranslatorSheet()
         'en':'Hop on discord'
       }
     },{
+      'id':'index-header-t5',
+      'langs':{
+        'es':'Regístrate',
+        'en':'Register'
+      }
+    },{
       'id':'index-join-t1',
       'langs':{
         'es':'Únete',
