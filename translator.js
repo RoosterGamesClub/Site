@@ -186,14 +186,20 @@ function getTranslatorSheet()
         'es':'Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.',
         'en':'Even though you only see me on the screen, Im an active member of the team and the supreme leader. I have full confidence in each member of the Club to create amazing games, as they are talented and committed.'
       }
+    },{
+      'id':'about-fer-t1',
+      'langs':{
+        'es':'🐄🛸🌠Mi interés por los videojuegos radica en todo el proceso creativo de estos, además de la capacidad que tienen de unir a las personas. Con este club, estoy segura de que crearemos una cálida comunidad donde nuestras ideas se verán realizadas. ¡Me encantará escucharte! Y así desarrollaremos historias que conecten con otros jugadores.🐄🛸🌠',
+        'en':'🐄🛸🌠My interest in video games lies in the entire creative process behind them, as well as their ability to bring people together. With this club, I am confident that we will create a warm community where our ideas will come to fruition. Ill be delighted to hear from you! And thus, we will develop stories that resonate with other players.🐄🛸🌠'
+      }
     },
    // ----------------------------------------
    // -------------- rules.html --------------
    {
     'id':'about-ruleOne-t1',
     'langs':{
-      'es':'El respeto es un principio fundamental en nuestra filosofía, y lo cultivamos con firmeza. Por esta razón, nuestra primera regla es la de honrar y valorar a los demás. En este contexto, enfatizamos la importancia de no difundir odio ni expresar comentarios xenófobos, homofóbicos o racistas. Reconocemos la diversidad como una riqueza que enriquece nuestro entorno y nos comprometemos a promover un ambiente de inclusión y aceptación mutua.',
-      'en':'Respect is a fundamental principle in our philosophy, and we cultivate it steadfastly. For this reason, our first rule is to honor and value others. In this context, we emphasize the importance of not spreading hatred or expressing xenophobic, homophobic, or racist comments. We recognize diversity as a wealth that enriches our environment and commit to promoting an atmosphere of inclusion and mutual acceptance.'
+      'es':'El respeto es un principio fundamental en nuestra filosofía, y lo cultivamos con firmeza. Por esta razón, nuestra primera regla es la de honrar y valorar a los demás. En este contexto, enfatizamos la importancia de no difundir odio ni expresar comentarios xenófobos, homofóbicos o racistas. Reconocemos la diversidad como una riqueza que enriquece nuestro entorno y nos comprometemos a promover un ambiente de inclusión y aceptación mutua.🐄🛸🌠',
+      'en':'Respect is a fundamental principle in our philosophy, and we cultivate it steadfastly. For this reason, our first rule is to honor and value others. In this context, we emphasize the importance of not spreading hatred or expressing xenophobic, homophobic, or racist comments. We recognize diversity as a wealth that enriches our environment and commit to promoting an atmosphere of inclusion and mutual acceptance. 🐄🛸🌠'
     }
   },{
       'id':'about-ruleTwo-t1',
