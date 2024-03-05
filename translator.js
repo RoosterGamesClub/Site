@@ -144,14 +144,14 @@ function getTranslatorSheet()
     },{
       'id':'index-join-19',
       'langs':{
-        'es':'[tal dia] a las [tal hora] ',
-        'en':'[this day] at [this time].'
+        'es':'Martes & Jueves a las 6:00 P.M. ',
+        'en':'Tuesday & Thursday at 6:00 P.M.'
       }
     },{
       'id':'index-join-20',
       'langs':{
-        'es':'de la tarde.',
-        'en':''
+        'es':'en el Laboratorio',
+        'en':'in the laboratory of '
       }
     },{
       'id':'index-join-30',
