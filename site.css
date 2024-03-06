@@ -16,3 +16,10 @@ footer div a
   padding: 15px;
   font-size: larger;
 }
+
+.collapsing 
+{
+  -webkit-transition: height .5s ease;
+  -o-transition: height .5s ease;
+  transition: height .5s ease;
+}
