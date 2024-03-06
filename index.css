@@ -86,10 +86,10 @@ header {
 
 .pollo
 {
+  margin-bottom: -50px;
   margin-left: 50px;
-  width: 80%;
-  height: 100%;
-  max-width: 350px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .section-text
