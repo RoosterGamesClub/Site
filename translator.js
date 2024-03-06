@@ -198,6 +198,12 @@ function getTranslatorSheet()
         'es':'🐄🛸🌠Mi interés por los videojuegos radica en todo el proceso creativo de estos, además de la capacidad que tienen de unir a las personas. Con este club, estoy segura de que crearemos una cálida comunidad donde nuestras ideas se verán realizadas. ¡Me encantará escucharte! Y así desarrollaremos historias que conecten con otros jugadores.🐄🛸🌠',
         'en':'🐄🛸🌠My interest in video games lies in the entire creative process behind them, as well as their ability to bring people together. With this club, I am confident that we will create a warm community where our ideas will come to fruition. Ill be delighted to hear from you! And thus, we will develop stories that resonate with other players.🐄🛸🌠'
       }
+    },{
+      'id':'about-diego-t1',
+      'langs':{
+        'es':'Aprecio mucho mi privacidad, como visionario de la ciberseguridad tiendo a dar poca información en redes. Me gustan las serpientes 🐍',
+        'en':'I highly value my privacy, as a cybersecurity visionary, I tend to provide minimal information on social networks. I like snakes 🐍'
+      }
     },
    // ----------------------------------------
    // -------------- rules.html --------------
