@@ -37,8 +37,8 @@ function getTranslatorSheet()
         'en':'© 2024 Rooster Games. All rights reserved.'
       }
     },
-    // ----------------------------------------
-    // -------------- index.html --------------
+    // -----------------------------------------
+    // -------------- index.html ---------------
     {
       'id':'index-header-t1',
       'langs':{
