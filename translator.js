@@ -210,8 +210,8 @@ function getTranslatorSheet()
    {
     'id':'about-ruleOne-t1',
     'langs':{
-      'es':'El respeto es un principio fundamental en nuestra filosofía, y lo cultivamos con firmeza. Por esta razón, nuestra primera regla es la de honrar y valorar a los demás. En este contexto, enfatizamos la importancia de no difundir odio ni expresar comentarios xenófobos, homofóbicos o racistas. Reconocemos la diversidad como una riqueza que enriquece nuestro entorno y nos comprometemos a promover un ambiente de inclusión y aceptación mutua.',
-      'en':'Respect is a fundamental principle in our philosophy, and we cultivate it steadfastly. For this reason, our first rule is to honor and value others. In this context, we emphasize the importance of not spreading hatred or expressing xenophobic, homophobic, or racist comments. We recognize diversity as a wealth that enriches our environment and commit to promoting an atmosphere of inclusion and mutual acceptance. '
+      'es':'El respeto es un principio fundamental en nuestra filosofía, y lo cultivamos con firmeza. Por esta razón, nuestra primera regla es la de honrar y valorar a los demás. En este contexto, enfatizamos la importancia de no difundir odio ni expresar comentarios xenófobos, homofóbicos o racistas. Reconocemos la diversidad como una riqueza que enriquece nuestro entorno y nos comprometemos a promover un ambiente de inclusión y aceptación mutua.🐄🛸🌠',
+      'en':'Respect is a fundamental principle in our philosophy, and we cultivate it steadfastly. For this reason, our first rule is to honor and value others. In this context, we emphasize the importance of not spreading hatred or expressing xenophobic, homophobic, or racist comments. We recognize diversity as a wealth that enriches our environment and commit to promoting an atmosphere of inclusion and mutual acceptance. 🐄🛸🌠'
     }
   },{
       'id':'about-ruleTwo-t1',
