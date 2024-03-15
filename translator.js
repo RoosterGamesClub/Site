@@ -37,8 +37,8 @@ function getTranslatorSheet()
         'en':'© 2024 Rooster Games. All rights reserved.'
       }
     },
-    // ----------------------------------------
-    // -------------- index.html --------------
+    // -----------------------------------------
+    // -------------- index.html ---------------
     {
       'id':'index-header-t1',
       'langs':{
@@ -178,7 +178,7 @@ function getTranslatorSheet()
       'id':'about-leo-t1',
       'langs':{
         'es':'Me gustan los videojuegos y tengo experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.',
-        'en':'I\'m a fan of videogames with experience in software development. I\'m here to help you overcome technical chalenges and make your visions come true. I\'m open to learn of every one of you (I know, I don\'t know it all). Hope you would consider me a resource and build something cool.'
+        'en':'I\'m a fan of videogames with experience in software development. I\'m here to help you overcome technical challenges and make your visions come true. I\'m open to learn of every one of you (I know, I don\'t know it all). Hope you would consider me a resource and build something cool.'
       }
     },{
       'id':'about-leslie-t1',
@@ -197,6 +197,12 @@ function getTranslatorSheet()
       'langs':{
         'es':'🐄🛸🌠Mi interés por los videojuegos radica en todo el proceso creativo de estos, además de la capacidad que tienen de unir a las personas. Con este club, estoy segura de que crearemos una cálida comunidad donde nuestras ideas se verán realizadas. ¡Me encantará escucharte! Y así desarrollaremos historias que conecten con otros jugadores.🐄🛸🌠',
         'en':'🐄🛸🌠My interest in video games lies in the entire creative process behind them, as well as their ability to bring people together. With this club, I am confident that we will create a warm community where our ideas will come to fruition. Ill be delighted to hear from you! And thus, we will develop stories that resonate with other players.🐄🛸🌠'
+      }
+    },{
+      'id':'about-diego-t1',
+      'langs':{
+        'es':'Aprecio mucho mi privacidad, como visionario de la ciberseguridad tiendo a dar poca información en redes. Me gustan las serpientes 🐍',
+        'en':'I highly value my privacy, as a cybersecurity visionary, I tend to provide minimal information on social networks. I like snakes 🐍'
       }
     },
    // ----------------------------------------
