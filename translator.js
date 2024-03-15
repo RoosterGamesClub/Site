@@ -150,14 +150,14 @@ function getTranslatorSheet()
     },{
       'id':'index-join-19',
       'langs':{
-        'es':'Martes & Jueves a las 6:00 P.M. ',
-        'en':'Tuesday & Thursday at 6:00 P.M.'
+        'es':'Martes & Jueves a las 7:15 P.M. ',
+        'en':'Tuesday & Thursday at 7:15 P.M.'
       }
     },{
       'id':'index-join-20',
       'langs':{
         'es':'en el Laboratorio',
-        'en':'in the laboratory of '
+        'en':'in the laboratory'
       }
     },{
       'id':'index-join-30',
@@ -177,7 +177,7 @@ function getTranslatorSheet()
     },{
       'id':'about-leo-t1',
       'langs':{
-        'es':'Soy aficionado de los videojuegos con experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.',
+        'es':'Me gustan los videojuegos y tengo experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.',
         'en':'I\'m a fan of videogames with experience in software development. I\'m here to help you overcome technical chalenges and make your visions come true. I\'m open to learn of every one of you (I know, I don\'t know it all). Hope you would consider me a resource and build something cool.'
       }
     },{
