@@ -175,6 +175,48 @@ function getTranslatorSheet()
         'en':'About Us'
       }
     },{
+      'id':'intro-title',
+      'langs':{
+        'es':'¿Quienes somos?',
+        'en':'Who are we?'
+      }
+    },{
+      'id':'intro-t1',
+      'langs':{
+        'es':'Somos un grupo de estudiantes con el deseo de crear videojuegos. Actualmente trabajamos en tres grandes proyectos:',
+        'en':'We are a group of students with the wish to create videogames. Currently we are working in three mayor projects:'
+      }
+    },{
+      'id':'intro-t2',
+      'langs':{
+        'es':'Esperamos salgan en verano de 2024.',
+        'en':'Schedule for release on summer 2024'
+      }
+    },{
+      'id':'intro-t3',
+      'langs':{
+        'es':'A día de hoy contamos con 28 talentosos miembros en diferentes áreas del desarrollo de videojuegos y seguimos creciendo.',
+        'en':'To this day we have 28 members in different areas of game developement and keep on growing.'
+      }
+    },{
+      'id':'supremeleader-title',
+      'langs':{
+        'es':'Líder Supermo',
+        'en':'Supreme Leader'
+      }
+    },{
+      'id':'about-pollo-t1',
+      'langs':{
+        'es':'Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.',
+        'en':'Even though you only see me on the screen, Im an active member of the team and the supreme leader. I have full confidence in each member of the Club to create amazing games, as they are talented and committed.'
+      }
+    },{
+      'id':'direction-title',
+      'langs':{
+        'es':'Dirección',
+        'en':'Direction'
+      }
+    },{
       'id':'about-leo-t1',
       'langs':{
         'es':'Me gustan los videojuegos y tengo experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.',
@@ -185,12 +227,6 @@ function getTranslatorSheet()
       'langs':{
         'es':'Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Pues además de lo que sé, me comprometo a buscar la manera de ayudarte en aquello que desconozco. Te invito a acercarte con confianza ante cualquier duda.',
         'en':'As the leader of the club, my commitment is to support and accompany you in every stage of the video game development process. With professional experience in an MMORPG, I am prepared to address your inquiries and needs. Furthermore, in addition to what I know, I pledge to find ways to assist you in areas where I lack knowledge. I invite you to approach with confidence for any questions.'
-      }
-    },{
-      'id':'about-pollo-t1',
-      'langs':{
-        'es':'Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.',
-        'en':'Even though you only see me on the screen, Im an active member of the team and the supreme leader. I have full confidence in each member of the Club to create amazing games, as they are talented and committed.'
       }
     },{
       'id':'about-fer-t1',

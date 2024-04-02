@@ -1,3 +1,9 @@
+/* para quitar el degradado del background, asi esta mas clean */
+body{
+  background-image: none !important; 
+  background-color: var(--rg-body-bg-color-lighter);
+}
+
 h1, h2, h3, h4, h5, h6, p, li ,span, a{
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.6), 0 0 3px rgba(255, 255, 255, 0.5), 0 0 0.5rem rgba(255, 255, 255, 0.3), 0 0 2rem rgba(255, 255, 255, 0.2);
   color: white;

@@ -9,8 +9,8 @@
   <link href="bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"> 
   <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
 
-  <link href="theme.override.css" rel="stylesheet">
-  <link href="site.css" rel="stylesheet">
+  <link href="theme.override.css" rel="stylesheet"> 
+  <link href="site.css" rel="stylesheet"> 
 
   <link href="about.css" rel="stylesheet">
 
@@ -18,7 +18,6 @@
 </head>
 <body>
   <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-  <script src="translator.js"></script>
 
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
@@ -26,7 +25,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" style="float: right;" id="navbarColor02">
+      <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <a class="nav-link" href="./index.html"><span id="site-navbar-t1">Inicio</span>
@@ -55,68 +54,141 @@
     <h1 id="about-header-t1">Sobre Nosotros</h1>
   </header>
 
-  <span class="badge rounded-pill bg-secondary">Main Interest</span>
-  <span class="badge rounded-pill bg-primary">Favorite Engines</span>
-
   <main>
-    <div class="card left">
-      <div class="card-img-container" style="padding: 5px;">
-        <img class="card-img" src="./resources/ollop-roostergames.png">
+
+    <section id="introduction">
+      <h2 id="intro-title">¿Quienes somos?</h2>
+
+      <div id="introduction-container">
+        <div id="introduction-text">
+          <p id="intro-t1">
+            Somos un grupo de estudiantes con el deseo de crear videojuegos. Actualmente trabajamos en tres grandes proyectos: 
+          </p>
+          <ul>
+            <li>Natu</li>
+            <li>Uaa Ascencion</li>
+            <li>RedHood</li>
+          </ul>
+          <P id="intro-t2">
+            Esperamos salgan en verano de 2024.
+          </P>
+          <P id="intro-t3">
+            A día de hoy contamos con 28 talentosos miembros en diferentes áreas del desarrollo de videojuegos y seguimos creciendo. 
+          </p>
+        </div>
+        
+        <div id="introduction-img-container">
+          <img src="resources/RoostersPieChart_1.png"/>
+        </div>
+      </div> 
+    </section>
+
+    <section id="SupremeLeaders">
+      <h2 id="supremeleader-title">Líder Supremo</h2>
+
+      <div class="cards-container">
+        <div class="card">
+          <img src="resources/ollop-roostergames.png"/>
+          <div>
+            <h5><a href="./pollo.html">Poio</a></h5>
+            <div> <!-- the tags thingy -->
+  
+            </div>
+            <p id="about-pollo-t1">
+              Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.
+            </p>
+          </div>
+        </div>  
       </div>
 
-      <div class="card-info">
-        <h5><a href="./pollo.html">Poio</a></h5>
-        <span class="badge rounded-pill bg-secondary">Supreame Leader</span>
-        <p id="about-pollo-t1" style="text-align: justify;">Aunque solo me vean en la pantalla, soy un miembro activo del equipo y el líder supremo. Confío plenamente en cada uno de los miembros del Club para crear juegos increíbles, ya que son talentosos y comprometidos.</p>
+    </section>
+
+    <section id="Direction">
+      <h2 id="direction-title">Dirección</h2>
+
+      <div class="cards-container">
+        <div id="leslie-card" class="card">
+
+          <img src="resources/bistraw.png"/>
+
+          <div>
+            <h5>Leslie Miroslava Benítez Marín</h5>
+
+            <div class="card-tags"> <!-- the tags thingy -->
+              <span class="badge bg-primary">Quest Direction</span>
+              <span class="badge bg-primary">Unreal Engine</span>
+              <span class="badge bg-primary">Unity</span>
+            </div>
+
+            <p id="about-leslie-t1">
+              Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Pues además de lo que sé, me comprometo a buscar la manera de ayudarte en aquello que desconozco. Te invito a acercarte con confianza ante cualquier duda.
+            </p>
+          </div>
+        </div>
+        
+        <div id="leo-card" class="card">
+
+          <img src="resources/wissens.jpg"/>
+
+          <div>    
+            <h5>Leonardo Merino Garfias</h5>
+
+            <div class="card-tags">
+              <span class="badge bg-primary">Programming</span>
+              <span class="badge bg-primary">Godot Engine</span>
+            </div>
+
+            <p id="about-leo-t1">
+              Me gustan los videojuegos y tengo experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.
+            </p>
+          </div>
+
+        </div>
+
+        <div id="fer-card" class="card">
+
+          <img src="resources/ferucktc.jpg"/>
+
+          <div>
+            <h5>María Fernanda Tovar Castañeda</h5>
+
+            <div class="card-tags">
+              <span class="badge bg-primary">Art Direction</span>
+            </div>
+
+            <p id="about-fer-t1">
+              🐄🛸🌠Mi interés por los videojuegos radica en todo el proceso creativo de estos, además de la capacidad que tienen de unir a las personas. Con este club, estoy segura de que crearemos una cálida comunidad donde nuestras ideas se verán realizadas. ¡Me encantará escucharte! Y así desarrollaremos historias que conecten con otros jugadores.🐄🛸🌠
+            </p>
+          </div>
+
+        </div>
+
+        <div id="diego-card" class="card">
+
+          <img src="resources/lifelessbow.png"/>
+
+          <div>
+            <h5>Diego López Mendoza</h5>
+
+            <div class="card-tags">
+              <span class="badge bg-primary">Programming</span>
+              <span class="badge bg-primary">Narrative</span>
+            </div>
+
+            <p id="about-diego-t1">
+              Aprecio mucho mi privacidad, como visionario de la ciberseguridad tiendo a dar poca información en redes. Me gustan las serpientes 🐍
+            </p>
+          </div>
+
+        </div>
+
       </div>
-    </div>
+    </section>
 
-    <div class="card right">
-      <div class="card-info">
-        <h5>Leslie Miroslava Benítez Marín</h5>
-        <span class="badge rounded-pill bg-secondary">Quest Direction</span>
-        <span class="badge rounded-pill bg-primary">Unreal Engine</span>
-        <span class="badge rounded-pill bg-primary">Unity</span>
-        <p id="about-leslie-t1" style="text-align: justify;">Como líder del club, mi compromiso es respaldarte y acompañarte en cada etapa del proceso de desarrollo de videojuegos. Con experiencia profesional en un MMORPG, estoy preparada para atender tus consultas y necesidades. Pues además de lo que sé, me comprometo a buscar la manera de ayudarte en aquello que desconozco. Te invito a acercarte con confianza ante cualquier duda.</p>
-      </div>
-      <!-- <div class="card-img-container"></div> -->
-    </div>
+    <section id="Leads">
 
-    <div class="card left">
-      <!-- <div class="card-img-container">
-        <img class="card-img" src="resources/leo_about.jpg">
-      </div> -->
-      
-      <div class="card-info ">
-        <h5>Leonardo Merino Garfias</h5>
-        <span style="margin-left: 10px;"></span>
-        <span class="badge rounded-pill bg-secondary">Programming</span>
-        <span class="badge rounded-pill bg-primary">Godot</span>
-        <p id="about-leo-t1" style="text-align: justify;">Me gustan los videojuegos y tengo experiencia en desarrollo de software. Estoy aquí para ayudar a superar desafíos técnicos y hacer realidad sus ideas. Estoy abierto a aprender de cada uno de ustedes (soy consciente de que no lo sé todo). Espero me consideren un recurso y constuyamos algo cool.</p>
-      </div>
-    </div>
+    </section>
 
-    <div class="card right">
-      <div class="card-info">
-        <h5>Maria Fernanda Tovar Castañeda</h5>
-        <span style="margin-left: 10px;"></span>
-        <span class="badge rounded-pill bg-secondary">Art Direction</span>
-        <p id="about-fer-t1" style="text-align: justify;">🐄🛸🌠Mi interés por los videojuegos radica en todo el proceso creativo de estos, además de la capacidad que tienen de unir a las personas. Con este club, estoy segura de que crearemos una cálida comunidad donde nuestras ideas se verán realizadas. ¡Me encantará escucharte! Y así desarrollaremos historias que conecten con otros jugadores.🐄🛸🌠</p>
-      </div>
-
-      <!-- <div class="card-img-container"></div> -->
-    </div>
-
-    <div class="card left">
-      <!-- <div class="card-img-container"></div> -->
-
-      <div class="card-info ">
-        <h5>Diego Lopez Mendoza</h5>
-        <span style="margin-left: 10px;"></span>
-        <span class="badge rounded-pill bg-secondary">CIO</span>
-        <p id="about-diego-t1" style="text-align: justify;">Aprecio mucho mi privacidad, como visionario de la ciberseguridad tiendo a dar poca información en redes. Me gustan las serpientes 🐍</p>
-      </div>
-    </div>
   </main>
 
   <footer>
@@ -131,7 +203,6 @@
     <span id="site-footer-t1">© 2024 Rooster Games. Todos los derechos reservados.</span>
   </footer>
 
+  <script src="translator.js"></script>
 </body>
 </html>
-
-<script src="translator.js"></script>
