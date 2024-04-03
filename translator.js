@@ -177,7 +177,7 @@ function getTranslatorSheet()
     },{
       'id':'intro-title',
       'langs':{
-        'es':'¿Quienes somos?',
+        'es':'¿Quiénes somos?',
         'en':'Who are we?'
       }
     },{
