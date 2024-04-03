@@ -2,7 +2,7 @@ header {
   width: 100%;
   min-height: 400px;
   background-color: var(--rg-bg-dark-color);
-  background: linear-gradient(170deg, rgba(111,66,193,1) 0%, rgba(11,4,23,1) 20%, rgba(11,4,23,1) 80%, rgba(111,66,193,0.4) 100%);
+  /* background: linear-gradient(170deg, rgba(111,66,193,1) 0%, rgba(11,4,23,1) 20%, rgba(11,4,23,1) 80%, rgba(111,66,193,0.4) 100%); */
 
   display: flex;
 }

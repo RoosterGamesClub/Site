@@ -195,8 +195,8 @@ function getTranslatorSheet()
     },{
       'id':'intro-t3',
       'langs':{
-        'es':'A día de hoy contamos con 28 talentosos miembros en diferentes áreas del desarrollo de videojuegos y seguimos creciendo.',
-        'en':'To this day we have 28 members in different areas of game developement and keep on growing.'
+        'es':'A día de hoy contamos con 19 talentosos miembros en diferentes áreas del desarrollo de videojuegos y seguimos creciendo.',
+        'en':'To this day we have 19 members in different areas of game developement and keep on growing.'
       }
     },{
       'id':'supremeleader-title',
