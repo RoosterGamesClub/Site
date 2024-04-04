@@ -19,13 +19,8 @@ main
 
 #introduction-container
 {
-  padding: 10px;
-
   display: flex;
   flex-wrap: wrap;
-
-  justify-content: space-between;
-  gap: 10px;
 }
 
 #introduction-text
@@ -40,30 +35,141 @@ main
   content: "■ ";
 }
 
-#introduction-img-container
+#interests-chart
 {
+
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 350px;
+  flex-basis: 400px;
 
-  /* max-width: 400px; */
+  display: grid;
 
-  display: flex;
-  align-items: center;
-  justify-items: center;
+  /* 
+    Definitions for the pie chart
+    modify the graph should be as simple as adjusting this values
+  */
+
+  /* colors */
+  --game-design-chart-color: rgb(51, 0, 102);
+  --programming-chart-color: rgb(135, 206, 250);
+  --graphics-chart-color: rgb(63, 39, 86);
+  --music-chart-color: rgb(255, 255, 255); /*rgb(11, 4, 23); */
+  --sound-chart-color: rgb(107, 142, 35);
+  --writing-chart-color:  rgb(255, 102, 0);/*rgb(0, 128, 0);/*
+
+  /* percentages */
+  --game-design-chart-percentage: 21%;
+  --programming-chart-percentage: 23%;
+  --graphics-chart-percentage: 21%;
+  --music-chart-percentage: 11%;
+  --sound-chart-percentage: 8%;
+  --writing-chart-percentage: 16%;
+
+  /* private vars: the (simple) math to render the graph */
+  --lower-bound-game-design: 0%;
+  --upper-bound-game-design: var(--game-design-chart-percentage);
+  
+  --lower-bound-programming: var(--upper-bound-game-design);
+  --upper-bound-programming: calc(var(--lower-bound-programming) + var(--programming-chart-percentage));
+
+  --lower-bound-graphics: var(--upper-bound-programming);
+  --upper-bound-graphics: calc(var(--lower-bound-graphics) + var(--graphics-chart-percentage));
+
+  --lower-bound-music: var(--upper-bound-graphics);
+  --upper-bound-music: calc(var(--lower-bound-music) + var(--music-chart-percentage));
+
+  --lower-bound-sound: var(--upper-bound-music);
+  --upper-bound-sound: calc(var(--lower-bound-sound) + var(--sound-chart-percentage));
+
+  --lower-bound-writing: var(--upper-bound-sound);
+  --upper-bound-writing: calc(var(--lower-bound-writing) + var(--writing-chart-percentage));
 }
 
-#introduction-img-container > img
+#interests-char-bottom-container
 {
-  margin-top: -30px;
+  grid-row: 2;
+  grid-column: 1;
 
-  max-width: 100%;
-  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
 
-  /* width: 20%; */
+  padding: 20px;
 
-  /* height: auto;
-  max-width: 350px; */
+  justify-content: center;
+  gap: 20px;
+
+  align-items: center;
+}
+
+#interest-chart-pie
+{
+  box-shadow:  0 0 7px rgba(255, 255, 255, 0.2);
+
+  transform: rotate(5deg);
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 120px;
+
+  min-height: 220px;
+  max-height: 220px;
+  min-width: 220px;
+  max-width: 220px;
+
+  border-radius: 50%;
+
+  filter: blur(0.5);
+
+  background: conic-gradient(
+  var(--game-design-chart-color) var(--lower-bound-game-design), var(--game-design-chart-color) var(--upper-bound-game-design),
+  var(--programming-chart-color) var(--lower-bound-programming), var(--programming-chart-color) var(--upper-bound-programming),
+  var(--graphics-chart-color) var(--lower-bound-graphics), var(--graphics-chart-color) var(--upper-bound-graphics),
+  var(--music-chart-color) var(--lower-bound-music), var(--music-chart-color) var(--upper-bound-music), 
+  var(--sound-chart-color) var(--lower-bound-sound), var(--sound-chart-color) var(--upper-bound-sound),
+  var(--writing-chart-color) var(--lower-bound-writing), var(--writing-chart-color) var(--upper-bound-writing)
+  );
+}
+
+#interest-chart-labels
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#interest-chart-labels li::marker
+{
+  text-shadow: none;
+}
+
+#interest-chart-label-game-design::marker
+{
+  color: var(--game-design-chart-color)
+}
+
+#interest-chart-label-programming::marker
+{
+  color: var(--programming-chart-color)
+}
+
+#interest-chart-label-graphics::marker
+{
+  color: var(--graphics-chart-color)
+}
+
+#interest-chart-label-music::marker
+{
+  color: var(--music-chart-color)
+}
+
+#interest-chart-label-sound::marker
+{
+  color: var(--sound-chart-color)
+}
+
+#interest-chart-label-writing::marker
+{
+  color: var(--writing-chart-color)
 }
 
 .cards-container
