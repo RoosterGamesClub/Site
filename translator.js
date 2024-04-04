@@ -199,6 +199,48 @@ function getTranslatorSheet()
         'en':'To this day we have 19 members in different areas of game developement and keep on growing.'
       }
     },{
+      'id':'interest-chart-title',
+      'langs':{
+        'es':'Intereses de los miembros',
+        'en':'Roosters Intereses'
+      }
+    },{
+      'id':'interest-chart-label-game-design',
+      'langs':{
+        'es':'Diseño de juegos',
+        'en':'Game Design'
+      }
+    },{
+      'id':'interest-chart-label-programming',
+      'langs':{
+        'es':'Programación',
+        'en':'Programming'
+      }
+    },{
+      'id':'interest-chart-label-graphics',
+      'langs':{
+        'es':'Gráficos / Animación',
+        'en':'Graphics / Animation'
+      }
+    },{
+      'id':'interest-chart-label-music',
+      'langs':{
+        'es':'Música',
+        'en':'Music'
+      }
+    },{
+      'id':'interest-chart-label-sound',
+      'langs':{
+        'es':'Diseño de sonido / Actuación de voz',
+        'en':'Sound Design / Voice Acting'
+      }
+    },{
+      'id':'interest-chart-label-writing',
+      'langs':{
+        'es':'Escritura / Diseño de narrativa',
+        'en':'Writing / Narrative Design'
+      }
+    },{
       'id':'supremeleader-title',
       'langs':{
         'es':'Líder Supermo',
