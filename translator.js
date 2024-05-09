@@ -183,8 +183,8 @@ function getTranslatorSheet()
     },{
       'id':'intro-t1',
       'langs':{
-        'es':'Somos un grupo de estudiantes con el deseo de crear videojuegos. Actualmente trabajamos en tres grandes proyectos:',
-        'en':'We are a group of students with the wish to create videogames. Currently we are working in three mayor projects:'
+        'es':'Somos un grupo de estudiantes con el deseo de crear videojuegos. Actualmente trabajamos en dos grandes proyectos:',
+        'en':'We are a group of students with the wish to create videogames. Currently we are working in two mayor projects:'
       }
     },{
       'id':'intro-t2',
